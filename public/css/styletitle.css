@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Metal+Mania&family=Silkscreen:wght@400;700&display=swap');
+
+.title{
+    display: inline-block;
+    font-family: "Silkscreen";
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 25ch;
+    animation: typing 3s steps(21), blink 1s 2s forwards;
+    overflow: hidden;
+    color: #000000;
+}
+
+@keyframes typing{
+    from {width: 0;}
+}
+@keyframes blink{
+    50% {border-color: transparent}
+    100% { border-color: transparent; }
+}
+
+
+.table{
+    border-radius: 50px;
+}
+.table tbody tr {
+    background-color: #74797c7e; 
+    color: #000000;
+}
+.table tbody tr:hover {
+    background-color: #565758a9; 
+    color:#ffffff;
+}
+.formm{
+    background-color: #74797c7e;
+}
+
+.pagination-container {
+    width: 100%;
+}
+
+.pagination-botn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination-botn:hover {
+    background-color: #3a3a3a;
+    color: #ffffff;
+}
+
+.pagination-botn:disabled {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: not-allowed;
+}
+
+.pagination-pages {
+    display: flex;
+    align-items: center;
+}
+
+.page-num {
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.page-num:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.page-num.active {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .pagination-container {
+        flex-direction: column;
+    }
+
+    .pagination-pages {
+        margin: 10px 0;
+    }
+}
+

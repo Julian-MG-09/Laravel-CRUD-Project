@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Jacquard+12+Charted&family=Metal+Mania&family=New+Rocker&family=Nova+Cut&family=Silkscreen:wght@400;700&family=Whisper&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #62a3c9, #a2bbf0);
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Nova Cut";
+    color: #000000;
+}
